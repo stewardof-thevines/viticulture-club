@@ -1,40 +1,31 @@
-# Privy Next.js Starter
+# 🍷 VitiCulture: The Web3 Native Wine Club
 
-> **This repository is archived.** For up-to-date examples, please visit [github.com/privy-io/examples](https://github.com/privy-io/examples).
+VitiCulture is a "Phygital" (Physical + Digital) wine club prototype. It leverages **Privy** for seamless "Email-to-Wallet" onboarding and **Vercel** for high-performance cloud hosting.
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## 🍇 Project Vision
+To bridge the gap between luxury agriculture and blockchain provenance. Every bottle in the club is tracked as a "Digital Twin" on-chain, ensuring authenticity and allowing members to trade allocations instantly.
 
-## Getting Started
+## 🛠 Tech Stack
+- **Framework:** Next.js 15 (App Router)
+- **Identity/Auth:** [Privy](https://privy.io) (Embedded MPC Wallets)
+- **Deployment:** Vercel
+- **Chains:** Base (Ethereum L2) for Provenance & Solana for High-Speed Trading
+- **Styling:** Tailwind CSS (Luxury Minimalist Theme)
 
-First, run the development server:
+## 🏗 Project Structure
+- `/app`: The "Tasting Room" (Frontend UI and Routes)
+- `/components`: Reusable UI elements (Wine cards, Cellar stats)
+- `/lib`: The "Sommelier Logic" (Web3 helper functions)
+- `/providers`: The "Cellar Foundation" (Privy & Blockchain configuration)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Getting Started
+1. **Clone & Open:** Open this repo in GitHub Codespaces.
+2. **Environment:** Create a `.env.local` file and add:
+   `NEXT_PUBLIC_PRIVY_APP_ID=your_app_id_here`
+3. **Install:** Run `npm install` in the terminal.
+4. **Develop:** Run `npm run dev` to launch the dashboard.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📜 Roadmap
+- [ ] Phase 1: Member Cellar Dashboard (In Progress)
+- [ ] Phase 2: "Digital Cork" Minting Logic
+- [ ] Phase 3: Cross-chain Bridge (Base <-> Solana)
